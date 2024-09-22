@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="total-container">
+        <div class="search-container">
+            <img src="./logo.png" alt="">
+            <input type="text" id="pokemon-search" placeholder="Search Pokemon...">
+            <button onclick="searchPokemon()">Search</button>
+        </div>
+        <div id="pokemon-list"></div>
+    </div>
+
+    <script src="./scripts.js"></script>
 </body>
 </html>
